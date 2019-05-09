@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-react-bootstrap",
+  "name": "gatsby-theme-bootstrap",
   "private": true,
   "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
   "version": "0.1.0",
