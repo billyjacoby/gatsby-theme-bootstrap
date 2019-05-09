@@ -1,0 +1,10 @@
+[
+  {
+    "pageName": "Home",
+    "pagePath": "/"
+  },
+  {
+    "pageName": "Page 2",
+    "pagePath": "/page-2"
+  }
+]

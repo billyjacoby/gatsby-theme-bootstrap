@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
@@ -11,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: require.resolve(__dirname, `/src/images`),
       },
     },
     `gatsby-plugin-sass`,
@@ -20,7 +22,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-page-creator",
       options: {
-        path: `${__dirname}/src/pages`,
+        path: path.join(__dirname, `/src/pages`),
       },
     },
     {

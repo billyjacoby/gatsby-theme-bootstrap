@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SecondPage = () => (
-  <Layout pageInfo={{ pageName: "Page 2" }}>
+  <Layout pageName="Page 2">
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>

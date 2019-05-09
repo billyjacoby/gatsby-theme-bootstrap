@@ -1,9 +1,7 @@
-# Gatsby React Bootstrap Starter
+# Gatsby Theme - Bootstrap
 
-A GatsbyJS starter that includes
+## A highly pre-configured and customizable GatsbyJS theme
 
-- react-bootstrap
-- react-icons
-- sticky on scroll navbar
-- SASS compiler
-- basic layout
+This theme is scaffolded off of the Bootstrap CSS library, opening up all variables within the bootstrap library to configuration.
+
+**_This theme is still under heavy development so stay tuned for updates._**
